@@ -1,5 +1,4 @@
-# PureHaven Hotel Management System
-## Portfolio 3: Transactions, Isolation and Concurrency Control
+# Portfolio 3: Transactions, Isolation and Concurrency Control
 
 ## Aim
 Demonstrate COMMIT, ROLLBACK, READ COMMITTED, a lost-update anomaly, row-level locking, and SERIALIZABLE conflict handling using a separate demonstration table. The experiments do not modify the hotel's operational tables.
