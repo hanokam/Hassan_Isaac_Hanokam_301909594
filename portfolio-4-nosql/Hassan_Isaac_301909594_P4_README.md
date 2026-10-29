@@ -1,5 +1,4 @@
-# PureHaven Hotel Management System
-## Portfolio 4: NoSQL and Advanced Data Models
+# Portfolio 4: NoSQL and Advanced Data Models
 
 ## Introduction
 
