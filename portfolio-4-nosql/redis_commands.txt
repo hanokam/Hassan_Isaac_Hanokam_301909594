@@ -1,0 +1,4 @@
+# Browser-based Redis demonstration commands
+SET ph:booking-session:PH-DEMO-0001 "{\"bookingReference\":\"PH-DEMO-0001\",\"guest\":\"Daniel Musa\",\"status\":\"checked_in\"}" EX 1800
+GET ph:booking-session:PH-DEMO-0001
+TTL ph:booking-session:PH-DEMO-0001

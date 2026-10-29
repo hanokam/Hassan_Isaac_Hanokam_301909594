@@ -1,0 +1,33 @@
+{
+  "bookingReference": "PH-DEMO-0001",
+  "guest": {
+    "guestId": 101,
+    "fullName": "Daniel Musa",
+    "email": "daniel.musa@example.com"
+  },
+  "rooms": [
+    {
+      "roomNumber": "101",
+      "roomType": "Deluxe",
+      "nightlyRate": 55000
+    }
+  ],
+  "stay": {
+    "checkIn": {
+      "$date": "2026-11-01T00:00:00Z"
+    },
+    "checkOut": {
+      "$date": "2026-11-03T00:00:00Z"
+    },
+    "nights": 2
+  },
+  "status": "checked_in",
+  "paymentSummary": {
+    "amountPaid": 110000,
+    "currency": "NGN",
+    "paymentStatus": "paid"
+  },
+  "specialRequests": [
+    "Late check-in"
+  ]
+}
