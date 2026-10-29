@@ -1,5 +1,4 @@
-# PureHaven Hotel Management System
-## Portfolio 2: Query Processing and Optimisation
+# Portfolio 2: Query Processing and Optimisation
 
 ### Objective
 Demonstrate reporting queries, query execution-plan analysis, index creation, and a cautious interpretation of performance measurements using PostgreSQL and pgAdmin.
