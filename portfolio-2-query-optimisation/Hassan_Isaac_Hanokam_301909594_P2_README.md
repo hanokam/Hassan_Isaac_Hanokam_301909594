@@ -16,5 +16,4 @@ Demonstrate reporting queries, query execution-plan analysis, index creation, an
 - `03_create_indexes.sql` — indexes created during the experiment.
 - `04_optimised_explain.sql` — guest lookup and upcoming-reservations plans after indexing.
 - `05_dataset_validation.sql` — validation queries and final index listing.
-- `performance-comparison.md` — analysis based on observed results.
-- `screenshots/` — screenshot from queries.
+- `screenshots/` — screenshots from queries.
