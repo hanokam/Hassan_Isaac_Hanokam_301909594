@@ -1,6 +1,6 @@
 # Portfolio 3: Transactions, Isolation and Concurrency Control
 
-## Aim
+## Objective
 Demonstrate COMMIT, ROLLBACK, READ COMMITTED, a lost-update anomaly, row-level locking, and SERIALIZABLE conflict handling using a separate demonstration table. The experiments do not modify the hotel's operational tables.
 
 ## Environment
@@ -28,6 +28,3 @@ Demonstrate COMMIT, ROLLBACK, READ COMMITTED, a lost-update anomaly, row-level l
 
 ## Conclusion
 The experiments illustrate how PostgreSQL handles transaction completion and concurrent access. COMMIT preserves changes, ROLLBACK discards uncommitted changes, READ COMMITTED allows later statements to see newly committed data, Row-level locks coordinate concurrent writes, and SERIALIZABLE may abort a transaction when a safe serial execution cannot be guaranteed.
-
-## Limitations
-These are controlled demonstrations using a small synthetic table, not a production financial system or a performance benchmark. Serializable failures should be handled by retrying the **entire transaction** when appropriate.
