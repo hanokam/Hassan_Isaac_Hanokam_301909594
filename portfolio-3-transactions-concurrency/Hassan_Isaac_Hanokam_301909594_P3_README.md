@@ -16,15 +16,6 @@ Demonstrate COMMIT, ROLLBACK, READ COMMITTED, a lost-update anomaly, row-level l
 5. **Row-level lock:** Using `SELECT ... FOR UPDATE` made the competing update wait. Both increments were applied; final Account A balance was 1300.00 and `version_no` was 2.
 6. **SERIALIZABLE:** Session A reduced Account A by 100.00 and committed. Session B's commit failed with SQLSTATE `40001` due to read/write dependencies. Final observed state: Account A 900.00/version 1; Account B 1000.00/version 0.
 
-## Screenshot evidence
-- `01_setup_demo_table.png`
-- `02_commit_result.png`
-- `03_rollback_result.png`
-- `04_read_committed.png`
-- `05_lost_update.png`
-- `06_row_lock_result.png`
-- `07_serializable_conflict.png`
-- `08_serializable_final_state.png`
 
 ## Conclusion
 The experiments illustrate how PostgreSQL handles transaction completion and concurrent access. COMMIT preserves changes, ROLLBACK discards uncommitted changes, READ COMMITTED allows later statements to see newly committed data, Row-level locks coordinate concurrent writes, and SERIALIZABLE may abort a transaction when a safe serial execution cannot be guaranteed.
