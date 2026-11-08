@@ -1,3 +1,6 @@
+`Name:` **Isaac Hanokam Hassan**
+
+`Student ID:` **301909594**
 # Portfolio 2: Query Processing and Optimisation
 
 ## Objective
